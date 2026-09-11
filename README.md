@@ -3,6 +3,11 @@
 ## 📌 Project Overview
 This project evaluates and compares the performance of five deep learning optimizers (SGD, SGD with Momentum, Adagrad, RMSProp, and Adam) on a multi-class image classification task. The primary objective was to identify the most effective optimizer while actively diagnosing and resolving model overfitting.
 
+## 📂 Dataset
+* **Dataset Source:** https://www.tensorflow.org/datasets/catalog/rock_paper_scissors
+* **Image Dimensions:** `(128, 128, 3)` RGB images
+* **Classes:** 3 multi-class categories with one-hot encoded labels
+
 ## 🏗️ Model Architecture
 A custom Multi-Layer Perceptron (MLP) was built using TensorFlow/Keras to process image batches of shape `(128, 128, 3)`. To combat severe memorization of the training data, aggressive regularization was implemented:
 * **Input:** Flattened 128x128 RGB images (49,152 features)
