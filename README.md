@@ -5,7 +5,7 @@ This project evaluates and compares the performance of five deep learning optimi
 
 ## 📂 Dataset
 * **Dataset Source:** https://www.tensorflow.org/datasets/catalog/rock_paper_scissors
-* **Image Dimensions:** `(128, 128, 3)` RGB images
+* **Image Dimensions:** `	(300, 300, 3)` RGB images
 * **Classes:** 3 multi-class categories with one-hot encoded labels
 
 ## 🏗️ Model Architecture
